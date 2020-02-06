@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+}
+
+h4{
+    display: inline-block;
+    width: 7vw;
+    margin-left: 100px;
+}
+
+input{
+    display: inline-block;
+    margin-left: 55px;
+}
+
+select{
+    display: inline-block;
+    margin-left: 55px;
+}
+
+.container{
+    width: 555px;
+    height: auto;
+
+}
+
+.styled-button{
+    font-size: small;
+    padding: 0.3em 1.2em;
+    border: 0.16em solid rgba(255,255,255,0);
+    border-radius: 2em;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.styled-button:hover{
+    border-color: #dededf;
+    cursor: pointer;
+}
+
+.styled-button:focus{
+    outline: 0;
+}
+
+.save-button{
+    background-color: #2fc5f2;
+    color: #ffff;
+    float: right;
+    width: 100px;
+    height: 45px;
+}
+
+.save-button:hover{
+    border-color: #dededf;
+}

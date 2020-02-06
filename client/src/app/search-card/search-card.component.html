@@ -1,0 +1,31 @@
+<div class="card">
+  <div class="search-title-container">
+    <h1 class="search-title">Search Vehicles</h1>
+  </div>
+  <div class="container">
+    <div>
+      <h4>Name: </h4>
+      <input type="text" placeholder="Vehicle Name" [(ngModel)]="inputName">
+    </div>
+    <div>
+      <h4>Type: </h4>
+      <select [(ngModel)]="inputType">
+        <option value="" disabled>Vehicle Type</option>
+        <option *ngFor="let type of keys(carTypes)" [ngValue]="type">{{carTypes[type]}}</option>
+      </select>
+    </div>
+    <div>
+      <h4>Time Created: </h4>
+      <input type="text" placeholder="From" onfocus="(this.type='date')" onblur="(this.type='text')" [(ngModel)]="inputCreateFrom">
+      <input type="text" placeholder="To" onfocus="(this.type='date')" onblur="(this.type='text')" [(ngModel)]="inputCreateTo">
+    </div>
+    <div>
+      <h4>Last Successful Connection: </h4>
+      <input type="text" placeholder="From" onfocus="(this.type='date')" onblur="(this.type='text')" [(ngModel)]="inputLastConnectionFrom">
+      <input type="text" placeholder="To" onfocus="(this.type='date')" onblur="(this.type='text')" [(ngModel)]="inputLastConnectionTo">
+    </div>
+    <button class="styled-button clear-button" (click)="clearFilters()">Clear filters</button>
+    <button class="styled-button search-button" (click)="filterVehicles()">Search</button>
+  </div>
+</div>
+

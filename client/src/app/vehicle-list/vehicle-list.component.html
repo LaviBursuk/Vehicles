@@ -1,0 +1,23 @@
+<div class="list-container">
+  <ul>
+    <button class="styled-button add-button" (click)="openDialog(newVehicle)">Add new vehicle!</button>
+    <label>Sort By: </label>
+    <select  class="" [(ngModel)]="sortType" (change)="sortVehicles()">
+      <option value="older">Created Time - older first</option>
+      <option value="newer">Created Time - newer first</option>
+      <option value="lastConn">Last Successful Connection</option>
+    </select>
+    <li *ngFor="let vehicle of mainPage.filteredVehicles">
+      <a>
+        <div class="vehicle-card">
+          {{vehicle.carType}} - {{vehicle.name}}
+          <div>
+            <button class="styled-button delete-button" (click)="deleteVehicle(vehicle.id)">Delete</button>
+            <button class="styled-button details-button" (click)="openDialog(vehicle)">Details</button>
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+  <h1 [ngClass]="{'hidden': showPlaceHolder}">No vehicles to show</h1>
+</div>

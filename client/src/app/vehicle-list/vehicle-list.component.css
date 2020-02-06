@@ -1,0 +1,100 @@
+h1{
+ text-align: center;    
+}
+
+ul{
+    margin-top: 5vh;
+    list-style-type: none; 
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 55vw;
+}
+
+.styled-button{
+    font-size: small;
+    text-align: center;
+    border: 0.16em solid rgba(255,255,255,0);
+    border-radius: 2em;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    color: #ffff;
+    float: right;
+    margin-right: 2vh;
+}
+
+.styled-button:hover{
+    cursor: pointer;
+}
+
+.styled-button:focus{
+    outline: 0;
+}
+
+.delete-button{
+    background-color: #f14e4e;
+    width: 5vw;
+    height: 25px;
+    min-width: 60px;
+    margin-top: -2vh;
+}
+
+.delete-button:hover{
+    border-color: #dededf;
+}
+
+.details-button{
+    background-color: #2fc5f2;
+    width: 5vw;
+    height: 25px;
+    min-width: 60px;
+    margin-top: -2vh;
+}
+
+.details-button:hover{
+    border-color: #dededf;
+}
+
+
+.add-button{
+    background-color: #2fc5f2; 
+    width: 145px;
+    height: 6vh;
+    margin-top: -2vh;
+    margin-left: 1vw;
+    float: right;
+    min-width: 80px;
+}
+
+.add-button:hover{
+    border-color: #ffff;
+}
+
+.list-container{
+    display: inline-block;
+    width: 60vw;
+}
+
+.vehicle-card{
+    background: #ffff;
+    margin-top: 3vh;
+    border-style: solid;
+    border-color: #2fc5f2;
+    border-radius: 10px;
+    color: #282828;
+    height: 35px;
+    font-size: large;
+    padding-left: 5vw;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+}
+
+.hidden{
+    display: none;
+}

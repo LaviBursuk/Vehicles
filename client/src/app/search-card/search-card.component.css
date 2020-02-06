@@ -1,0 +1,113 @@
+h1{
+    text-align: center;
+}
+
+h4{
+    color: #dededf;
+    font-size: 1vw;
+    display: inline-block;
+    width: 7vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+h5{
+    display: inline-block;
+}
+
+input{
+    width: 6vw;
+    height: auto;
+    margin-right: 0.5vw;
+    font-size: 0.75vw;
+}
+
+select{
+    width: 6vw;
+    height: auto;
+}
+
+.styled-button{
+    height: auto;
+    font-size: 1vw;
+    padding: 0.3em 1.2em;
+    border: 0.16em solid rgba(255,255,255,0);
+    border-radius: 2em;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.styled-button:hover{
+    border-color: #dededf;
+    cursor: pointer;
+}
+
+.styled-button:focus{
+    outline: 0;
+}
+
+.search-button{
+    background-color: #2fc5f2;
+    color: #282828;
+    float: right;
+    width: 5vw;
+    padding-right: 4vw;
+}
+
+.search-button:hover{
+    border-color: #dededf;
+}
+
+.clear-button{
+    background-color: #dededf;
+    color: #282828;
+    float: left;
+    width: 8vw;
+}
+
+.clear-button:hover{
+    border-color: #ffff;
+}
+
+.add-button{
+    background-color: #4ef18f; 
+    width: 13vw;
+    margin-left: 2vw;
+    display: flex;
+}
+
+.add-button:hover{
+    border-color: #ffff;
+}
+
+.search-title{
+    font-size: 2vw;
+    margin: 0px;
+}
+
+.search-title-container{
+    border-bottom: #dededf;
+    border-bottom-style: solid;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background: #282828;
+    color: #2fc5f2;
+    width: 25vw;
+    margin-left: 2vw;
+    margin-top: 4vh;
+    border-radius: 20px;
+    width: 28vw;
+    height: auto;
+    float: left;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.aaa{
+    
+}

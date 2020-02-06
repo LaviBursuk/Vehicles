@@ -1,0 +1,25 @@
+h1{
+    margin: 0;
+    font-size: 3.5vw;
+    font-style: italic;
+    bottom: 1px;
+    position: relative;
+}
+
+img{
+    width: 15%;
+    height: auto;
+}
+
+.top-bar{
+    background: #282828;
+    color: #dededf;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border-bottom-color: #2fc5f2;
+    border-bottom-style: solid;
+}
+
+.logo{
+    float: left;
+}
